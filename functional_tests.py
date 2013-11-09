@@ -5,7 +5,7 @@ class NewVisitorTest(unittest.TestCase): #1
 
     def setUp(self): #2
         self.browser = webdriver.Firefox()
-		self.browser.implicitly_wait(3)
+        self.browser.implicitly_wait(3)
 
     def tearDown(self): #3
         self.browser.quit()
@@ -20,7 +20,7 @@ class NewVisitorTest(unittest.TestCase): #1
         self.fail('Finish the test!') #6
 
         # She is invited to enter a to-do item straight away
-		
+        
         # She types "Buy peacock feathers" into a text box (Edith's hobby
 # is tying fly-fishing lures)
 
